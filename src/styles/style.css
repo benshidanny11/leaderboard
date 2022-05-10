@@ -77,4 +77,6 @@
 
 .form-button {
   justify-content: end;
+  margin: 0.6rem 0.3rem;
+  width: 100%;
 }
