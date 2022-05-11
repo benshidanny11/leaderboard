@@ -15,18 +15,11 @@
         <div class="list-container">
           <div class="d-flex top-section">
             <h2 class="fw-bold">Recent scores</h2>
-            <button class="btn">Refresh</button>
+            <button class="btn" id="refButton">Refresh</button>
           </div>
          <div class="inner-container">
-            <ul class="list">
-                <li class="listitem">Name: 63</li>
-                <li class="listitem">Name: 200</li>
-                <li class="listitem">Name: 100</li>
-                <li class="listitem">Name: 111</li>
-                <li class="listitem">Name: 223</li>
-                <li class="listitem">Name: 212</li>
-                <li class="listitem">Name: 20</li>
-                <li class="listitem">Name: 50</li>
+            <ul class="list" id="list">
+              
             </ul>
          </div>
         </div>
@@ -37,10 +30,10 @@
               <input type="text" name="name" id="name" />
             </div>
             <div class="form-group">
-              <input type="text" name="score" id="score" />
+              <input type="number" name="score" id="score" />
             </div>
             <div class="d-flex form-button">
-             <button class="btn">Submit</button>
+             <button class="btn" id="btn-sub">Submit</button>
             </div>
           </div>
         </div>
