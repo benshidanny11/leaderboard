@@ -26,7 +26,7 @@
 }
 
 .inner-container {
-  border: 2px solid rgb(100, 100, 100);
+  border: 4px solid rgb(26, 25, 25);
   overflow-y: scroll;
 }
 
@@ -79,4 +79,26 @@
   justify-content: end;
   margin: 0.6rem 0.3rem;
   width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    flex-direction: column;
+    padding-left: 0.5rem;
+  }
+
+  .list-container {
+    width: 100%;
+  }
+
+  .form-container {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .main {
+    padding: 2rem;
+  }
 }
