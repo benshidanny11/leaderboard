@@ -32,9 +32,10 @@ const Game = {
   },
   addScrore: async (url) => {
     const btnSub = document.getElementById('btn-sub');
-    btnSub.addEventListener('click', async () => {
+    btnSub.addEventListener('click', async (e) => {
       const user = document.getElementById('name').value;
       const score = document.getElementById('score').value;
+      e.target.innerHTML = 'Wait...';
 
       if (user.length === '' || score.length === '') {
         return;
